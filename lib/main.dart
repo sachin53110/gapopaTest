@@ -60,7 +60,7 @@ class _DockState<T> extends State<Dock<T>> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height:80,
+      height:120,
       padding: const EdgeInsets.all(8),
       decoration: BoxDecoration(
         color: Colors.black12,
