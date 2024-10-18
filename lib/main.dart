@@ -73,7 +73,9 @@ class _DockState<T> extends State<Dock<T>> {
             .asMap()
             .entries
             .map(
-              (entry) => AnimatedContainer(
+              (entry) =>
+
+                  AnimatedContainer(
 
             key: ValueKey(entry.key),
             duration: const Duration(milliseconds: 200),
@@ -83,7 +85,7 @@ class _DockState<T> extends State<Dock<T>> {
           ),
         )
             .toList(),
-      ),
+      )),
     );
   }
 
