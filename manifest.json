@@ -1,6 +1,6 @@
 {
-    "name": "gagopatest",
-    "short_name": "gagopatest",
+    "name": "gapopatest",
+    "short_name": "gapopatest",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
